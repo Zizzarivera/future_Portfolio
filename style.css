@@ -1,0 +1,110 @@
+.body {
+margin: auto;
+
+
+}
+
+.header {
+    margin: -10px;
+    margin-bottom: 10px;
+    background-color: #17597a;
+}
+
+.title{
+    padding: 18px;
+    font-size: 55px;
+    color: lightblue;
+    margin-top: -3px;
+    margin-bottom: -9px;
+  padding-bottom: 25px;
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 0px;
+    margin-top: -30px;
+    margin-right: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    }
+
+.text{
+   margin: 30px;
+}
+
+.hero{
+height: 250px;
+background-image:url(https://wallpapers.com/images/hd/cool-photos-background-1920-x-1080-9cnqcjs5o3rb8raa.jpg);
+background-size: cover;
+background-position: center;
+margin: -10px;
+    margin-bottom: 18px;
+    margin-top: -16px;
+}
+
+.Textbox {
+    /* border: black;
+    color: white;
+    font-size: 80px;
+    margin: 0px;
+    background: purple; */
+
+
+    padding: 20px;
+    margin: 10px;
+    margin-left: 300px;
+    margin-top: 62px;
+    position: absolute;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+
+
+
+
+        /* width: 200px;
+        border: 1px solid white;
+        padding: 20px;
+        /* padding-left: 60px; */
+        /* margin: 10px;
+        margin-left: 40px;
+        position: absolute; */
+        /* margin-left: 1200px; */
+}
+
+
+
+
+.aboutMe,
+.project,
+.contactMe { 
+ 
+    background-color: black;
+    margin: 100px;
+
+}
+
+.main {
+    background-color: aquamarine;
+    height: 60vh;
+    margin-bottom: 2%
+
+}
+
+.story_title_style {
+    background-color:pink,
+
+}
+
+.story_style {
+    background-color: aqua;
+}
