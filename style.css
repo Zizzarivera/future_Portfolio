@@ -1,127 +1,185 @@
 .body {
     margin: auto;
-    
-    
-    }
-    
-    .header {
-        margin: -10px;
-        margin-bottom: 10px;
-        background-color: #17597a;
-    }
-    
-    .title{
-        padding: 18px;
-        font-size: 55px;
-        color: lightblue;
-        margin-top: -3px;
-        margin-bottom: -9px;
-      padding-bottom: 25px;
-    }
-    
-    .header ul li {
-        list-style: none;
-        margin-left: 0px;
-        margin-top: -30px;
-        margin-right: 200px;
-        display: inline-block;
-        color: white;
-        font-size: 40px;
-        padding-top: 10px;
-    
-    }
-    
-    .header ul {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -50px;
-        }
-    
-    .text{
-       margin: 30px;
-    }
-    
-    .hero{
+
+
+}
+
+.header {
+    margin: -10px;
+    margin-bottom: 10px;
+    background-color: #17597a;
+}
+
+.title {
+    padding: 18px;
+    font-size: 55px;
+    color: lightblue;
+    margin-top: -3px;
+    margin-bottom: -9px;
+    padding-bottom: 25px;
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 0px;
+    margin-top: -30px;
+    margin-right: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+.text {
+    margin: 30px;
+}
+
+.hero {
     height: 250px;
-    background-image:url(https://wallpapers.com/images/hd/cool-photos-background-1920-x-1080-9cnqcjs5o3rb8raa.jpg);
+    background-image: url(https://wallpapers.com/images/hd/cool-photos-background-1920-x-1080-9cnqcjs5o3rb8raa.jpg);
     background-size: cover;
     background-position: center;
     margin: -10px;
-        margin-bottom: 18px;
-        margin-top: -16px;
-    }
-    
-    .Textbox {
-        padding: 20px;
-        margin: 10px;
-        margin-left: 300px;
-        margin-top: 62px;
-        position: absolute;
-        font-size: 50px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:white;
-    }
-    
-    .about-me-container {
-     display: flex;
-     justify-content: center;
-    
-    }
-    .about-me-container h1 {
-        border-right: 4px solid black;
-        padding: 20px;
-        margin: 50px;
-        width: 200px;
-        text-align: center;
-        margin-left: -40px;
-        font-size: 65px;
-        color: darkblue
-    }
-    
-    .about-me-container p {
-      color: black;
-      margin-top: 50px;
-      font-size: 22px;
-    }
-    
-    .Projects-container {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .Projects-container h1 {
-        border-right: 4px solid black;
-        padding: 40px;
-        margin: 50px;
-        width: 200px;
-        text-align: center;
-        margin-left: -1125px;
-        font-size: 65px;
-        color: darkblue;
-        /* margin-top: -50px; (checking if it stright) */
-    }
-    
-    .Project-stlye {
-    border-color: #17597a;
-    
-    }
+    margin-bottom: 18px;
+    margin-top: -16px;
+}
 
-    .Contact-Me-Container {
-        display: flex;
-        justify-content: center;
-    }
+.Textbox {
+    padding: 20px;
+    margin: 10px;
+    margin-left: 300px;
+    margin-top: 62px;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-me-container h1 {
+    border-right: 4px solid black;
+    padding: 20px;
+    margin: 50px;
+    width: 200px;
+    text-align: center;
+    margin-left: -40px;
+    font-size: 65px;
+    color: darkblue
+}
+
+.about-me-container p {
+    color: black;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.Projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Projects-container h1 {
+    border-right: 4px solid black;
+    padding: 40px;
+    margin: 50px;
+    width: 200px;
+    text-align: center;
+    margin-left: -1125px;
+    font-size: 65px;
+    color: darkblue;
+    /* margin-top: -50px; (checking if it stright) */
+}
+
+.Project-stlye {
+    border-color: #17597a;
+
+}
+
+.Contact-Me-container {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.Contact-Me-container h1 {
+    border-right: 4px solid black;
+    padding: 30px;
+    margin: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 55px;
+    color: darkblue;
+    /* margin-top: -50px; */
+    /* margin-left: -50px; */
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-left: -92px;
+
+}
+
+#number
+ {
+    margin-left: 100px;
+    display: flex;
+    /* margin-top: 92px; */
+    font-size: 45px;
+    margin-right: 63px;
+    border-bottom: 10px;
+    border-bottom: 3px solid;
+    padding-top: 99px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+#email,
+#github {
+    margin-left: 100px;
+    display: flex;
+    /* margin-top: 92px; */
+    font-size: 45px;
+    margin-right: 63px;
+    border-bottom: 10px;
+    /* border-bottom: 3px solid; */
+    padding-top: 99px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    color: blue;
+    margin-left: 19px;
+
+}
+
+a:hover {
+background-color: #eff3f5;
+color: red;
+}
+
+/* #github {
+    margin-left: 19px;
+
+} */
+html {
+    height: 100%;
+}
+
+
+/* .img {
+        background-image: https://devangsoni.com/wp-content/uploads/2022/12/project.jpg;
+        background-image: https://media.licdn.com/dms/image/C4E12AQFnek8KF7m9MA/article-cover_image-shrink_600_2000/0/1520159759172?e=2147483647&v=beta&t=REnb_Ewq2qqdfjhwvduW9GRHT_9LUDAdi-CqHbfeEm0
+        background-image: https://www.liquidplanner.com/wp-content/uploads/2019/04/4979119_Best-practices-IT-PMS-1024x1024.jpg
     
-    .Contact-Me-Container h1 {
-        border-right: 4px solid black;
-        padding: 20px;
-        margin: 50px;
-        width: 200px;
-        text-align: center;
-        margin-left: -40px;
-        font-size: 65px;
-        color: darkblue
     }
-    
-    .lsit {
-        color:blueviolet
-    } 
